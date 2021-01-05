@@ -1,15 +1,12 @@
-import {createStore, applyMiddleware, compose} from "redux";
+import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
-import rootReducer from "./reducers"
+import rootReducer from "./reducers";
 
-const initalState = {
-
-};
+const initalState = {};
 const middleware = [thunk];
 
 let store;
 
-// set-up redux for all navigator
 if (window.navigator.userAgent.includes("Chrome")) {
     store = createStore(
         rootReducer,
