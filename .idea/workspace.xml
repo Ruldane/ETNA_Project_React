@@ -4,10 +4,11 @@
     <list default="true" id="8fc0939c-33b0-4b2d-9c4c-dc89de919700" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/projectActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Project/ProjectItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/ProjectItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/UpdateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/UpdateProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/projectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/projectReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,8 @@
       <workItem from="1609316302034" duration="5430000" />
       <workItem from="1609338580250" duration="953000" />
       <workItem from="1609834997509" duration="12791000" />
-      <workItem from="1609921399929" duration="4324000" />
+      <workItem from="1609921399929" duration="6940000" />
+      <workItem from="1609950150267" duration="4420000" />
     </task>
     <servers />
   </component>
