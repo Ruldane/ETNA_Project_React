@@ -21,7 +21,6 @@ class Dashboard extends Component {
                             <h1 className="display-4 text-center">Projects</h1>
                             <br />
                             <CreateProjectButton />
-
                             <br />
                             <hr />
                             {projects.map(project => (
