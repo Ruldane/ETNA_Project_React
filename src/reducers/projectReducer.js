@@ -21,7 +21,8 @@ export default function(state = initialState, action) {
             return  {
                 ...state,
                 projects: state.projects.filter(
-                    project=>project.projectIdentifier !==action.payload // update the dashboard when the project is delete
+                    // update the dashboard when the project is delete
+                    project=>project.projectIdentifier !==action.payload
                 )
             }
         default:
