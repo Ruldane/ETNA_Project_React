@@ -4,16 +4,17 @@
     <list default="true" id="8fc0939c-33b0-4b2d-9c4c-dc89de919700" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PPMToolDesign/LandingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/PPMToolDesign/LandingPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/StartPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserManagement/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserManagement/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserManagement/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserManagement/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projectBoard/ProjectBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projectBoard/ProjectBoard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projectBoard/ProjectTasks/AddProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projectBoard/ProjectTasks/AddProjectTask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projectBoard/ProjectTasks/ProjectTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projectBoard/ProjectTasks/ProjectTask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projectBoard/ProjectTasks/UpdateTaskProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projectBoard/ProjectTasks/UpdateTaskProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPMToolDesign/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPMToolDesign/Dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPMToolDesign/LandingPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPMToolDesign/LoginPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPMToolDesign/ProjectBoard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPMToolDesign/ProjectForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPMToolDesign/ProjectTaskForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPMToolDesign/RegistrationPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPMToolDesign/Template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +112,7 @@
       <workItem from="1613465011108" duration="14561000" />
       <workItem from="1613501125276" duration="6847000" />
       <workItem from="1613546989313" duration="3661000" />
-      <workItem from="1613656450589" duration="16301000" />
+      <workItem from="1613656450589" duration="17251000" />
     </task>
     <servers />
   </component>
