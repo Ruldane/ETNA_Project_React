@@ -61,9 +61,9 @@ class AddProjectTask extends Component {
                         <div className="row">
                             <div className="col-md-8 m-auto">
                                 <Link to={`/projectBoard/${id}`} className="btn btn-light">
-                                    Back to Project Board
+                                    Revenir aux informations du projet
                                 </Link>
-                                <h4 className="display-4 text-center">Add </h4>
+                                <h4 className="display-4 text-center">Ajouter une tâche </h4>
                                 <p className="lead text-center">Project Name + Project Code</p>
                                 <form onSubmit={this.onSubmit}>
                                     <div className="form-group">
@@ -74,7 +74,7 @@ class AddProjectTask extends Component {
                                                name="summary"
                                                value={this.state.summary}
                                                onChange={this.onChange}
-                                               placeholder="Project Task summary"
+                                               placeholder="Informations à propos des tâches"
                                         />
                                         {errors.summary && (
                                         <div className="invalid-feedback">{errors.summary}</div>
@@ -83,13 +83,13 @@ class AddProjectTask extends Component {
                                     <div className="form-group">
                                         <textarea
                                             className="form-control form-control-lg"
-                                            placeholder="Acceptance Criteria"
+                                            placeholder="Critères pour terminer cette tâche"
                                             name="acceptanceCriteria"
                                             value={this.state.acceptanceCriteria}
                                             onChange={this.onChange}
                                         />
                                     </div>
-                                    <h6>Due Date</h6>
+                                    <h6>Date de début</h6>
                                     <div className="form-group">
                                         <input
                                             type="date"
@@ -106,10 +106,10 @@ class AddProjectTask extends Component {
                                             value={this.state.priority}
                                             onChange={this.onChange}
                                         >
-                                            <option value={0}>Select Priority</option>
-                                            <option value={1}>High</option>
-                                            <option value={2}>Medium</option>
-                                            <option value={3}>Low</option>
+                                            <option value={0}>Priorité</option>
+                                            <option value={1}>Elevée</option>
+                                            <option value={2}>Moyenne</option>
+                                            <option value={3}>Faibre</option>
                                         </select>
                                     </div>
                                     <div className="form-group">
@@ -119,10 +119,10 @@ class AddProjectTask extends Component {
                                             value={this.state.status}
                                             onChange={this.onChange}
                                         >
-                                            <option value="">Select Status</option>
-                                            <option value="TO_DO">TO DO</option>
-                                            <option value="IN_PROGRESS">IN PROGRESS</option>
-                                            <option value="DONE">DONE</option>
+                                            <option value="">Status</option>
+                                            <option value="TO_DO">A faire</option>
+                                            <option value="IN_PROGRESS">En cours</option>
+                                            <option value="DONE">Terminée</option>
                                         </select>
                                     </div>
                                     <input type="submit" className="btn btn-primary btn-block mt-4"/>

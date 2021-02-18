@@ -53,7 +53,7 @@ class AddProject extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8 m-auto">
-                                <h5 className="display-4 text-center">Create Project form</h5>
+                                <h5 className="display-4 text-center">Création d'un projet</h5>
                                 <hr />
                                 <form onSubmit={this.onSubmit}>
                                     <div className="form-group">
@@ -62,7 +62,7 @@ class AddProject extends Component {
                                             className={classnames("form-control form-control-lg", {
                                                 "is-invalid": errors.projectName
                                             })}
-                                            placeholder="Project Name"
+                                            placeholder="Nom du projet"
                                             name="projectName"
                                             value={this.state.projectName}
                                             onChange={this.onChange}
@@ -79,7 +79,7 @@ class AddProject extends Component {
                                             className={classnames("form-control form-control-lg", {
                                                 "is-invalid": errors.projectIdentifier
                                             })}
-                                            placeholder="Unique Project ID"
+                                            placeholder="Unique Projet ID"
                                             name="projectIdentifier"
                                             value={this.state.projectIdentifier}
                                             onChange={this.onChange}
@@ -95,7 +95,7 @@ class AddProject extends Component {
                         className={classnames("form-control form-control-lg", {
                             "is-invalid": errors.description
                         })}
-                        placeholder="Project Description"
+                        placeholder="Description du projet"
                         name="description"
                         value={this.state.description}
                         onChange={this.onChange}
@@ -106,7 +106,7 @@ class AddProject extends Component {
                                             </div>
                                         )}
                                     </div>
-                                    <h6>Start Date</h6>
+                                    <h6>Date de début</h6>
                                     <div className="form-group">
                                         <input
                                             type="date"
@@ -116,7 +116,7 @@ class AddProject extends Component {
                                             onChange={this.onChange}
                                         />
                                     </div>
-                                    <h6>Estimated End Date</h6>
+                                    <h6>Date de fin estimée</h6>
                                     <div className="form-group">
                                         <input
                                             type="date"
@@ -129,7 +129,7 @@ class AddProject extends Component {
 
                                     <input
                                         type="submit"
-                                        className="btn btn-primary btn-block mt-4"
+                                        className="btn btn-info btn-block mt-4"
                                     />
                                 </form>
                             </div>
