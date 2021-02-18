@@ -125,7 +125,7 @@ class AddProjectTask extends Component {
                                             <option value="DONE">Terminée</option>
                                         </select>
                                     </div>
-                                    <input type="submit" className="btn btn-primary btn-block mt-4"/>
+                                    <input type="submit" className="btn btn-info btn-block mt-4"/>
                                 </form>
                             </div>
                         </div>

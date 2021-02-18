@@ -92,9 +92,9 @@ class UpdateTaskProject extends Component {
                             <Link to={`/projectBoard/${this.state.projectIdentifier}`} className="btn btn-light">
                                 Revenir au projet
                             </Link>
-                            <h4 className="display-4 text-center">Update Project Task</h4>
+                            <h4 className="display-4 text-center">Mettre à jour la tâche du projet</h4>
                             <p className="lead text-center">
-                                Nom du projet: {this.state.projectIdentifier} | Project Task ID:{" "}
+                                Nom du projet: {this.state.projectIdentifier} | Tâche ID:{" "}
                                 {this.state.projectSequence}{" "}
                             </p>
                             <form onSubmit={this.onSubmit}>
@@ -105,7 +105,7 @@ class UpdateTaskProject extends Component {
                                             "is-invalid": errors.summary
                                         })}
                                         name="summary"
-                                        placeholder="Project Task summary"
+                                        placeholder="Description de la tâche"
                                         value={this.state.summary}
                                         onChange={this.onChange}
                                     />
@@ -118,7 +118,7 @@ class UpdateTaskProject extends Component {
                                 <div className="form-group">
                   <textarea
                       className="form-control form-control-lg"
-                      placeholder="Acceptance Criteria"
+                      placeholder="Critère de validation de la tâche"
                       name="acceptanceCriteria"
                       value={this.state.acceptanceCriteria}
                       onChange={this.onChange}
@@ -141,10 +141,10 @@ class UpdateTaskProject extends Component {
                                         value={this.state.priority}
                                         onChange={this.onChange}
                                     >
-                                        <option value={0}>Select Priority</option>
-                                        <option value={1}>High</option>
-                                        <option value={2}>Medium</option>
-                                        <option value={3}>Low</option>
+                                        <option value={0}>Priorité</option>
+                                        <option value={1}>Haute</option>
+                                        <option value={2}>Moyenne</option>
+                                        <option value={3}>Basse</option>
                                     </select>
                                 </div>
 
@@ -155,10 +155,10 @@ class UpdateTaskProject extends Component {
                                         value={this.state.status}
                                         onChange={this.onChange}
                                     >
-                                        <option value="">Select Status</option>
-                                        <option value="TO_DO">TO DO</option>
-                                        <option value="IN_PROGRESS">IN PROGRESS</option>
-                                        <option value="DONE">DONE</option>
+                                        <option value="">Status</option>
+                                        <option value="TO_DO">A faire</option>
+                                        <option value="IN_PROGRESS">En cours</option>
+                                        <option value="DONE">Terminée</option>
                                     </select>
                                 </div>
 
